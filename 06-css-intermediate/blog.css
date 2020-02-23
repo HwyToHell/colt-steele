@@ -1,0 +1,46 @@
+body {
+    border: 20px lightgrey solid;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    width: 80%;
+    font-family: 'Source Sans Pro';
+}
+
+.date {
+    color: steelblue;
+    margin: 0.3em auto auto auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.subject {
+    color: #2c3e50;
+    margin: 0.5em auto auto auto;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.content p:nth-of-type(1) {
+    /*margin-left: 30px;*/
+    border-left: 7px lightgrey solid;
+    padding-left: 8px;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}

@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+
+table {
+    margin: auto;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+/* table cell border styling */
+.vertical {
+    border-left: 2px blue solid;
+    border-right: 2px blue solid;   
+}
+
+.horizontal {
+    border-top: 2px blue solid;
+    border-bottom: 2px blue solid;   
+}
+
+/* table cell background styling */
+/*
+tr:nth-of-type(1) {
+    background: yellow;
+}
+
+tr:nth-of-type(2) {
+    background: yellowgreen;
+}
+
+tr:nth-of-type(3) {
+    background: green;
+}
+*/

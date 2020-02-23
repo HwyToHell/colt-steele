@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Register</h1>
+
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" placeholder="John" required>
+        
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+
+        <div>
+            <label for="gender-male">Male</label>
+            <input type="radio" id="gender-male" name="gender" value="male">
+            <label for="gender-female">Female</label>
+            <input type="radio" id="gender-female" name="gender" value="female">
+            <label for="gender-other">Other</label>
+            <input type="radio" id="gender-other" name="gender" value="other">
+        </div>
+
+        <div> <!--label with nested input, could also be separate with id=--> 
+            <label>Email:
+                <input type="email" name="email" placeholder="john@doe.com" required>
+            </label>
+            <label>Password:
+                <input type="password" name="pass" pattern=".{5,10}"
+                    title="5 to 10 characters required"
+                    placeholder="between 5 and 10 characters" required>
+            </label>
+        </div>
+
+        <div>
+            <label>Birthday:
+                <select name="day">
+                    <option value="">Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>31</option>
+                </select>
+                <select name="month">
+                    <option value="">Month</option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="12">Dec</option>                    
+                </select>
+                <select name="year">
+                    <option value="">Year</option>
+                    <option>1920</option>
+                    <option>1921</option>
+                    <option>2019</option>        
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label for="agree">I agree to the terms and conditions</label>
+            <input type="checkbox" id="agree" name="agree" required> 
+        </div>
+
+        <input type="submit">
+
+    </form>
+
+</body>
+</html> 
