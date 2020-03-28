@@ -1,0 +1,65 @@
+body {
+    background-color: #283139;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-color: steelblue;
+}
+
+/*.header {
+    background-color: steelblue;
+}*/
+
+#ctrl-stripe {
+    background-color: white;
+}
+
+#btn-container {
+    margin: 20px auto;
+    background-color: #283139;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.btn-sharp {
+    border: none;
+    background-color: white;
+    color: steelblue;
+    font-weight: 800;
+}
+
+.btn-sharp:hover, .btn-sharp-selected {
+    border: none;
+    background-color: steelblue;
+    color: white;
+    font-weight: 800;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 0;
+    border-radius: 15%;
+    margin: 5px;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
