@@ -1,0 +1,19 @@
+{
+  "name": "api-example",
+  "version": "1.0.0",
+  "description": "test api calls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "api"
+  ],
+  "author": "Holger Grzonka",
+  "license": "ISC",
+  "dependencies": {
+    "locus": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
