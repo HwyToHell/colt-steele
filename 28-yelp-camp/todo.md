@@ -1,4 +1,4 @@
-### work packages
+# work packages
 
 v01
 ===
@@ -6,6 +6,7 @@ v01
 ---
 - landing page
 - campground page (lists all campgrounds, name and image)
+- data format
 	[
 		{name: "campground", image: "http://Image.com"},
 		{name: "campground", image: "http://Image.com"}
@@ -26,3 +27,8 @@ v01
 - add in body-parser
 - set up route to show form (according to 7 RESTful routes pattern)
 - add basic unstyled form
+
+295
+---
+- styling (title)
+- grid 
