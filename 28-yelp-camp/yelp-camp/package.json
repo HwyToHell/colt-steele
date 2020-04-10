@@ -1,21 +1,16 @@
 {
-  "name": "api-example",
+  "name": "yelp-camp",
   "version": "1.0.0",
-  "description": "test api calls",
+  "description": "yelp camp app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "json",
-    "api"
-  ],
   "author": "Holger Grzonka",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.0.2",
-    "express": "^4.17.1",
-    "locus": "^2.0.4",
-    "request": "^2.88.2"
+    "express": "^4.17.1"
   }
 }
