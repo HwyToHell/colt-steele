@@ -32,3 +32,13 @@ v01
 ---
 - styling (title)
 - grid 
+
+297
+---
+- style nav bar and forms
+
+305
+---
+- add mongoose and mongodb connection
+- setup campground model
+- use model inside of our routes
